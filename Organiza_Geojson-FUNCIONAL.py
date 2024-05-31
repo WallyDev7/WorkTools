@@ -1,3 +1,14 @@
+'''
+
+Este script em Python organiza arquivos GeoJSON em um diretório específico.
+A função organize_geojson_files percorre os arquivos no diretório, carrega cada arquivo, ajusta sua estrutura utilizando a função organize_geojson,
+e então sobrescreve o arquivo original com os dados organizados. A função organize_geojson ajusta a estrutura dos dados GeoJSON para garantir consistência,
+mantendo apenas um conjunto de coordenadas para polígonos e ambos os conjuntos para linhas.
+
+'''
+
+
+
 import os
 import json
 

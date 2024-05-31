@@ -1,4 +1,5 @@
 '''
+
 O script Python a seguir realiza as seguintes tarefas:
 
 Abre um arquivo GeoJSON.

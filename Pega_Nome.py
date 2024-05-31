@@ -1,6 +1,6 @@
 '''
-O script Python a seguir realiza as seguintes tarefas:
 
+O script Python a seguir realiza as seguintes tarefas:
 Pega o valor da propriedade 'nome' e colocar em um arquivo txt
 
 '''

@@ -5,6 +5,8 @@ Ele então extrai os valores da propriedade "name" de cada objeto de recurso no 
 
 '''
 
+
+
 import json
 
 # Função para extrair os valores de "name" do GeoJSON e salvá-los em um arquivo de texto

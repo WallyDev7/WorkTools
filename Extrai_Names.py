@@ -1,3 +1,15 @@
+'''
+
+Este script Python foi criado para realizar a extração dos valores de "name" de um arquivo GeoJSON e armazená-los em um arquivo de texto.
+Primeiramente, é verificado se o GeoJSON fornecido é do tipo "FeatureCollection".
+Em seguida, o script percorre os recursos (features) presentes no GeoJSON e verifica se a chave "name" está presente nas propriedades de cada recurso.
+Se estiver, o valor correspondente é adicionado a uma lista.
+Por fim, os valores da lista são escritos em um arquivo de texto.
+
+'''
+
+
+
 import json
 
 # Função para extrair os valores de "name" do GeoJSON e salvá-los em um arquivo de texto
